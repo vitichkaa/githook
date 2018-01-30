@@ -2,7 +2,7 @@ package api
 
 import (
 	"context"
-	"helloword/conf"
+	"github.com/vitichkaa/githook/conf"
 	"log"
 	"net/http"
 	"time"
