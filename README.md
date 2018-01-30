@@ -1,0 +1,2 @@
+# githook
+Study git hook 
