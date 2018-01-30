@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"flag"
-	"helloword/api"
-	"helloword/conf"
+	"github.com/vitichkaa/githook/api"
+	"github.com/vitichkaa/githook/conf"
 	"log"
 	"os"
 	"os/signal"
