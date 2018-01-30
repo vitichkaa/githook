@@ -1,7 +1,7 @@
 package main
 
 import (
-	"golang.org/x/net/context"
+	"context"
 	"flag"
 	"github.com/vitichkaa/githook/api"
 	"github.com/vitichkaa/githook/conf"
