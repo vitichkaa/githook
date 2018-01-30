@@ -1,7 +1,7 @@
 package api
 
 import (
-	"context"
+	"golang.org/x/net/context"
 	"github.com/vitichkaa/githook/conf"
 	"log"
 	"net/http"
