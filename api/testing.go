@@ -20,9 +20,9 @@ func (api *API) HelloServer(w http.ResponseWriter, req *http.Request) {
 }
 
 func (api *API) Download(w http.ResponseWriter, r *http.Request) {
-	file, _ := os.Open("список.txt")
+	file, _ := os.Open("list.txt")
 	body, _ := ioutil.ReadAll(file)
 	w.Header().Set("Content-Type", "applicaiton/octet-stream")
-	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s", "список.txt"))
+	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s", "list.txt"))
 	w.Write(body)
 }

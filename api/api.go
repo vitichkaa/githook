@@ -1,8 +1,8 @@
 package api
 
 import (
+	"githook/conf"
 	"context"
-	"github.com/vitichkaa/githook/conf"
 	"log"
 	"net/http"
 	"time"

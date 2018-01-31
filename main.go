@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/vitichkaa/githook/api"
-	"github.com/vitichkaa/githook/conf"
+	"githook/api"
+	"githook/conf"
 	"log"
 	"os"
 	"os/signal"
